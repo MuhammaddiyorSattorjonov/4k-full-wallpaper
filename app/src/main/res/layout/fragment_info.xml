@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:backgroundTint="#4DFFFFFF"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: Unsplash.com/afjru"
+        android:textStyle="normal"
+        android:backgroundTint="#4DFFFFFF"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author: Anton Makareno"
+        android:textStyle="normal"
+        android:backgroundTint="#4DFFFFFF"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download: 1234441"
+        android:textStyle="normal"
+        android:backgroundTint="#4DFFFFFF"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4DFFFFFF"
+        android:text="Size: 3,4MB, 2300x4000"
+        android:textStyle="normal"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>
